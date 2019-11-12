@@ -1,0 +1,157 @@
+====================
+     2019-11-12    
+====================
+
+ * hardware/interfaces
+213ab5f  wifi: Merge QC wifi dual interface changes  [Purushottam Kushwaha]
+
+ * packages/apps/WallpaperPicker2
+0f1fbf1  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/apps/WallpaperPicker2 into HEAD  [RakeshBatra]
+
+====================
+     2019-11-11    
+====================
+
+====================
+     2019-11-10    
+====================
+ * art
+51984ee  Don't fail dual map if memfd isn't supported  [Luca Stefani]
+0d6c2f6  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/art into c10  [RakeshBatra]
+
+ * bootable/recovery
+7dd3184  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/bootable/recovery into c10  [RakeshBatra]
+
+ * build/make
+edaade4  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/build into c10  [RakeshBatra]
+8120349  Fix odm output directory for devices w/o vendor partition  [dianlujitao]
+
+ * build/soong
+570e6ff  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/build/soong into c10  [RakeshBatra]
+
+ * device/oneplus/oneplus3
+b67a59c  athene: ld.config: add libashmemd_client.so to platform shared libs  [Akash Mondal]
+
+ * frameworks/av
+093c9c2  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/av into c10  [RakeshBatra]
+
+ * frameworks/base
+3243dbd  Revert "Fix custom lockscreen shortcut icons being white"  [RakeshBatra]
+8ffecc5  Fix after r14 merge  [RakeshBatra]
+a6f4c7e  Use UnlockMethodCache#canSkipBouncer in CellularTile  [ganeshi4u]
+
+ * frameworks/native
+a124180  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/native into c10  [RakeshBatra]
+
+ * frameworks/opt/net/wifi
+d184868  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into c10  [RakeshBatra]
+
+ * frameworks/opt/telephony
+306bbc8  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/opt/telephony into c10  [RakeshBatra]
+
+ * hardware/interfaces
+d969aa2  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/hardware/interfaces into c10  [RakeshBatra]
+
+ * hardware/qcom/camera
+951a499  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/hardware/qcom/camera into c10  [RakeshBatra]
+
+ * hardware/qcom/gps
+4023428  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/hardware/qcom/gps into c10  [RakeshBatra]
+
+ * hardware/qcom/wlan
+873c2bb  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/hardware/qcom/wlan into HEAD  [RakeshBatra]
+
+ * hardware/ril
+365cbac  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/hardware/ril into c10  [RakeshBatra]
+
+ * packages/apps/ColtCenter
+9d8baca  Fix Derp  [RakeshBatra]
+07a3bbb  Add Oneplus Settings  [RakeshBatra]
+
+ * packages/apps/DeskClock
+04e36ed  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/apps/DeskClock into c10  [RakeshBatra]
+
+ * packages/apps/Settings
+1eb61bc  Fix String after r14 merge  [RakeshBatra]
+604ba6d  Revert "Allow navigation gesture bar to be hidden [2/2]"  [RakeshBatra]
+
+ * packages/inputmethods/LatinIME
+59737dd  Add Hardslog light theme  [Hardslog]
+97b8ec8  few more tweaks for hs_dark to make it more material  [Hardslog]
+0278bdb  New theme:  BLACKOUT  [Hardslog]
+675b789  Add new hardslog_dark theme  [Hardslog]
+cf802d1  Update JNI fallback lib name  [Ricardo Cerqueira]
+54aeb27  LatinIME: disable sound on keypress on all devices by default  [Dan Pasanen]
+20ab87d  Fix send button not being centered for non-standard densities.  [Danny Baumann]
+84be03a  Don't interrupt active gesture input by modifier key presses.  [Danny Baumann]
+4cb61f1  LatinIME: Only enable gesture mode if gesture lib is available  [Tom Marshall]
+51ab398  LatinIME: Add fallback loader for JNI lib  [Steve Kondik]
+aa5f22c  Rearrange Slavic & Greek morekeys  [Michael Bestas]
+3fc2dea  Rearrange Morekey Options to follow numbers/symbols menu  [Chet Kener]
+5ed6fa0  LatinIME: Add "more" keys to ALL the keys in Greek layouts  [Michael Bestas]
+ce5449c  Added smiles without noise to AOSP keyboard  [Stefano]
+53ac89b  LatinIME: Bring back ALL the keys for QWERTZ  [elektroschmock]
+8174070  LatinIME: Apply "Enable more keys for top row on tablets" (f6620308ba) and "Add "more" keys to ALL the keys" (c561f31af9) to slavik layouts.  [Kiril Mikos]
+03b1b69  Add Moar Key Options  [Chet Kener]
+
+ * packages/services/Telecomm
+52fdd99  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/services/Telecomm into c10  [RakeshBatra]
+
+ * packages/services/Telephony
+b4ee099  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/services/Telephony into c10  [RakeshBatra]
+
+ * system/bt
+812d748  Add support to force disable enhanced sco commands  [cb]
+ac5a3bd  Bluetooth: Read BLE vendor capability to proceed on Secure conn  [Srinu Jella]
+6f4a292  Prevent abort in case of command timeout  [Luke Zhang]
+19555b4  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/system/bt into c10  [RakeshBatra]
+
+ * system/core
+3af1868  VtsKernelMemInfoTest: only enforce on Q+ launching devices  [Tri Vo]
+bf170b9  fs_mgr: overlay: do not allow sub-mounts to be overridden  [Mark Salyzyn]
+a3a7390  usbd: Exit in case of charger mode.  [Badhri Jagan Sridharan]
+
+ * system/vold
+b926de7  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/system/vold into c10  [RakeshBatra]
+
+ * vendor/colt
+127b031  Upgrade Colt to v5.3  [RakeshBatra]
+
+====================
+     2019-11-09    
+====================
+
+ * frameworks/base
+1e4acd0  Revert "Allow navigation gesture bar to be hidden [1/2]"  [RakeshBatra]
+33cd378  Revert "Recents: Fix NPE while changing themes"  [RakeshBatra]
+3fdb2a9  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/frameworks/base into c10  [RakeshBatra]
+
+====================
+     2019-11-08    
+====================
+
+====================
+     2019-11-07    
+====================
+
+====================
+     2019-11-06    
+====================
+
+ * frameworks/base
+1bdefc1  Cutout force full screen: Remove fullscreen checks  [Henrique Silva]
+ddfe561  base: [1/2] Implement cutout force full screen  [Henrique Silva]
+d021f61  Power menu: improve longpress action on some buttons  [Alex Cruz]
+
+ * packages/apps/Settings
+2015b5d  Cutout force fullscreen: Disable fast scroller  [Henrique Silva]
+ca6210a  Settings: [2/2] Implement cutout force full screen  [Henrique Silva]
+b2d480e  Settings: Add platform and RAM to Model & Hardware  [Rashed Abdel-Tawab]
+e59a8bd  Settings: Enable permission hub by default  [Luca Stefani]
+44d2493  Revert "Remove Permissions Hub."  [Luca Stefani]
+cd0f31c  Merge tag 'android-10.0.0_r14' of https://android.googlesource.com/platform/packages/apps/Settings into c10  [RakeshBatra]
+5006ec9  Revert "Settings: adaptive icon"  [RakeshBatra]
+3a9f362  Settings: Add Colt version and build date  [Chris Soyars]
+be4197e  Settings: make AppPackageName copyable  [Ali B]
+05abe14  Settings: Fix crash when going back from battery  [Ido Ben-Hur]
+
